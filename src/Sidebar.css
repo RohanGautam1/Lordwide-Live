@@ -1,0 +1,138 @@
+.logo-image-dark {
+    width: 9.5rem;
+    height: 2.5rem;
+    margin-left: .5rem;
+  }
+.logo-image-dark:hover {
+    cursor: pointer;
+  }
+  
+  
+  .Sidebar{
+    height: 100vh;
+    /* width:16.66%; */
+    background-color: #FFFFFF ;
+    border-right: 1px solid #EBEBEB;
+    /* position: fixed; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .SidebarList{
+    height: auto;
+    padding: 0;
+    width: 100%;
+    margin-top: .1rem;
+    margin-left: .5rem;
+  }
+
+  .Insights-SidebarList{
+    height: auto;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 2rem;
+  margin-left: .5rem;
+  }
+  
+    .Sidebar-row{
+      list-style-type: none;
+      width: 90%;
+      border-radius:19px;
+      margin: 0%;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      background-color: #ffffff;
+      padding-left: 1rem;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-bottom: .05rem;
+
+    }
+  
+    .Insights-Sidebar-row{
+      list-style-type: none;
+      width: 90%;
+      border-radius:19px;
+      margin: 0%;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      background-color: #ffffff;
+      padding-left: 1rem;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-bottom: 0.01rem;
+
+    }
+    .menu-text{
+      margin-left: 1rem;
+      color: #7A86A1;
+    }
+    .sidebar-li-title{
+  margin-left: .5rem;
+    }
+  
+    .Sidebar-row:hover{
+      background-color: #6149CD;
+    }
+    .Sidebar-row:hover .hover1{
+      color: #ffffff;
+      }
+      .Sidebar-row:hover .menu-text{
+        color: #ffffff;
+        }
+    
+      .Insights-Sidebar-row:hover{
+      background-color: #6149CD;
+    }
+    .Insights-Sidebar-row a {
+      text-decoration: none;
+      color: #7A86A1;
+    }
+
+  .Sidebar .insights{
+  margin-left: 1rem;
+  color: #C0BDCC;
+  cursor:default;
+  
+  }
+  .insights-list{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  
+  
+  .SidebarList #active{
+    background-color: #6149CD;
+    color: #FFFFFF !important;
+  }
+  
+  .SideBarEndrow{
+    margin-left: 0.41rem;
+    /* margin-top: 5rem; */
+  
+  }
+  .SidebarEnd{
+    display: flex;
+  }
+  .SidebarEnd1{
+    margin-right: 3em;
+  }
+  
+  .SidebarEnd img:hover{
+    cursor: pointer;
+  }
+  
+  .Sidebar p{
+    margin-top: .9rem;
+  }
+  #active .menu-text {
+    color: #FFFFFF !important;
+  }
+  .hover1{
+      text-decoration: none;
+  }
+  .Insights-Sidebar-row:hover .menu-text{
+      color: #FFFFFF;
+  }

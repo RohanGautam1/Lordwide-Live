@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.main-heading h3{
+    font-size: 32px;
+    font-weight: 800;
+    color: black;
+}
+.searchbox span img{
+    width: 12px;
+}
+.searchbox input{
+    border: none;
+    background: transparent;
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+}

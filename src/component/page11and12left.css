@@ -1,0 +1,82 @@
+.right-sidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:22px;
+}
+.chat-button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chat-big-img, .chat-small-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  /* margin:auto; */
+}
+
+
+.image1{
+    /* top: 223px; */
+    left: 1613px;
+    /* width: 120px; */
+    /* height: 120px; */
+
+}
+
+.image2{
+    top: 451px;
+    left: 1621px;
+    width: 167px;
+    height: 164px;
+}
+
+.profile-container{
+    position: relative;
+    border-radius: 13px;
+    border:  1px solid #EBEBEB;
+    /* width:135px; */
+    height:35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-left: 40px; */
+    margin-bottom:50px;
+}
+
+
+.profile{
+    /* position:absolute; */
+    top:13px;
+    left:110px;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-top:22px; */
+}
+
+.bottom-image-container{
+    position: relative;
+}
+.camera{
+position: absolute;
+top:40px;
+left:73px;
+}
+
+.my-profile{
+   border-radius:13px;
+}
+.photo-name{
+    margin-top: 0px;
+}
+.image-container{
+    height:60px;
+    margin-top: 70px;
+}

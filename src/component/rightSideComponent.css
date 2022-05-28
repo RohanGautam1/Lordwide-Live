@@ -1,0 +1,34 @@
+.right-sidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:22px;
+}
+.chat-button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chat-big-img, .chat-small-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  /* margin:auto; */
+}
+
+
+.image1{
+    top: 223px;
+    left: 1613px;
+    width: 120px;
+    height: 120px;
+
+}
+
+.image2{
+    top: 451px;
+    left: 1621px;
+    width: 167px;
+    height: 164px;
+}

@@ -1,0 +1,668 @@
+
+html, body {
+  /* max-width: 100%; */
+  overflow-x: hidden;
+ 
+}
+.setting-container-page{
+  overflow-x: hidden; 
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+body{
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.new-user-para{
+  font-size: 14px;
+  font-weight: 400;
+  color: #7A86A1;
+}
+
+.paragraph-text{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  letter-spacing: 0px;
+  color: #7A86A1;
+  opacity: 1;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.a-color{
+  color: #6149CD;
+  font-weight: 500;
+}
+
+
+.forget-pass{
+  font-size: 30px;
+  color: #000000;
+  font-weight: 700;
+}
+.email-section{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #EBEBEB;
+  border-radius: 20px;
+  opacity: 1;
+  font-weight: 400;
+  color: #7A86A1;
+  margin-top: 3px;
+}
+
+.Submit-Button{
+  background: transparent linear-gradient(90deg, #6149CD 0%, #A654AC 47%, #EA5F8B 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 4px 23px 57px #6149CD42;
+  border-radius: 16px;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.bg-img{
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+  display:block;
+  padding:0 !important;
+  margin:0;
+  background-position: center;
+}
+
+.forgot-login-form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  margin-top: 2rem;
+
+}
+
+.img-txt{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  letter-spacing: -0.6px;
+  color: #FFFFFF;
+  font-size: 40px;
+  padding: 2rem 0rem 0rem 4rem;
+  font-weight: 800;
+}
+
+.logo-image{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.logo-image2{
+  margin-left: 1rem;
+}
+.login-form label{
+  font-weight: 600;
+  color: #000000;
+}
+::placeholder{
+  color: #7A86A1 !important;
+  font-weight: 400;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------Sidebar CSS------------------------------------------ */
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* --------------------------------Dashboard CSS------------------------------ */
+
+/* @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+.card{
+  margin-bottom: 0.5rem;
+  padding: 0 .7rem 1.2rem;
+  border: none;
+  border-radius: 1rem;
+  color:rgba(0,0,0,1);
+  letter-spacing: .05rem;
+}
+.chat-replied{
+  background-color: #fff4f2;
+  color: #000;
+  font-weight: 400;
+  height: 8rem;
+  width: 15rem;
+}
+.chat-Satisfaction{
+  background-color: #f6efff;
+  color: #000;
+  font-weight: 400;
+  background-image: url(./images/satisfaction_bg.svg);
+  background-position: bottom 0px right 0px;
+  background-repeat: no-repeat;
+  height: 8rem;
+  width: 15rem;
+
+}
+
+.chat-replied .card-text{
+  font-size: 5px;
+}
+
+.clip2{
+  margin-left: 7rem;
+  margin-top: -3.5rem;
+}
+
+.chat-replied .icon-more{
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  width: 2rem;
+  height: .2rem;
+}
+.chat-Satisfaction .icon-more{
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  width: 2rem;
+  height: .2rem;
+}
+
+.clip img{
+  margin-left: -10px;
+}
+.satisfaction{
+  background-color: #f6efff;
+  color: #000; 
+}
+.txt h3{
+  font-weight: 700;
+}
+.txt h5{
+  color: #7A86A1;
+  font-weight: 400;
+  font-size: medium;
+}
+
+.Order-in-Progress{
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  box-shadow: 2px 13px 54px #695F9714; 
+  margin-bottom: 2rem; 
+}
+
+.Order-in-Progress .heading{
+  margin: 1.2rem;
+}
+
+.table-img{
+  width: 4rem;
+  height: 4rem;
+  margin-top: .8rem;
+  margin-right: .2rem;
+}
+tr {
+  display: block
+}
+td.break {
+  float: left;
+}
+td.Payment-mode{
+  padding-left: 3rem;
+  color: #6149CD;
+}
+.price{
+  width: 50vw;
+  background: #ccc;
+  text-align: right;
+}
+
+.clock-img{
+  width: .938rem;
+  height: .938rem;
+  margin-right: .8rem;
+
+}
+
+.All-orders-btn{
+  border: 1px solid #EBEBEB ;
+  color: #7A86A1;
+  font-size: .875rem;
+  background-color: #ffffff;
+  font-weight: 700;
+}
+.All-orders-btn:hover{
+  background-color: #6149CD;
+  color: #ffffff;
+  border: 1px solid #6149CD;
+} */
+
+  /* ================================================================================
+  ==================================Change pass  */
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-section {
+    display: flex;
+  
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+  }
+  
+  .left {
+    color: #000000;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+  
+    margin-right: 15px;
+    margin-left: 6px;
+  }
+  
+  .right {
+    /* background-color: blue; */
+    color: white;
+    margin-right: 15px;
+    margin-left: 6px;
+    font-size: 10px;
+    color: #7a86a1;
+    font-weight: 400;
+    font-family: "Manrope", sans-serif;
+  }
+  .profile-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 0.5px solid #7a86a1;
+    /* padding: 8px; */
+    cursor: pointer;
+  }
+  
+  .my-profile {
+    margin-left: 8px;
+    color: #6149cd;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+  }
+  
+  .my-password {
+    margin-left: 15px;
+    color: #000000;
+    font-family: "Manrope", sans-serif;
+    margin-top: 14px;
+  
+   
+  }
+  
+  .bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 6px;
+  }
+  
+  .left-section {
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .info-container,
+  .password-container {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left:20px;
+
+  }
+/*   
+  .middle-section {
+ 
+  } */
+  
+  .form-wrapper-container {
+    height: 40vh;
+   
+
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    margin-top: 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  
+  .password-info-heading {
+    color: #000000;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top:20px;
+    margin-bottom: 25px;
+
+
+  }
+  /* .current-password{
+    margin-top:15px;
+  } */
+  
+  .current-password-container,
+  .confirm-new-password-container,
+  .current-password-container {
+    color: #000000;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    margin-left: 12px;
+ /*  */
+    display: flex;
+  
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+   
+  }
+  
+  .password {
+    /* width: 60%; */
+    height: 30px;
+    border-radius: 20px;
+    /* margin-left: 10px; */
+    border: 1px solid #ebebeb;
+    /* display: flex; */
+    /* flex:1; */
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 35px;
+    width:80%;
+    margin-right: 18px;
+    margin-left:20px;
+  }
+ 
+  
+  .pass-2{
+   margin-left:35px;
+  }
+  .save-change-button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding:10px;
+   
+  
+    
+    
+  }
+  
+  .save-button{
+    
+    color:#FFFFFF;
+    font-size: 14px;
+    display: flex;
+
+  background-color: #6149CD;
+  border-radius: 10px;
+  padding:5px;
+  border: none;
+  cursor: pointer;
+  }
+  
+  /* @media screen and (max-width:767px){
+     .left-section{
+       display:none;
+     }
+  } */
+
+  .form-button{
+      font-size:14px;
+      padding:15px;
+  }
+
+  .image{
+    background-position: center;
+  }
+
+  .photo-container{
+        position: relative;
+  }
+
+
+  .camera{
+    position:absolute;
+    /* left:0; */
+    right:220px;
+    margin-top:16px
+  }
+
+  @media screen and (min-width:579px){
+    .photo-container{
+      margin-top:80px;
+      
+    }
+  }
+
+  @media screen and (max-width:579px){
+    .camera{
+      position:absolute;
+      /* left:0; */
+      right:140px;
+      margin-top:16px
+    }
+
+    
+  
+  }
+
+  .photo-name{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+   
+  }
+  /* --------------------------------------------------------------------------- */
+
+  .navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    /* width:100% !important; */
+}
+
+.heading{
+   color: #000000;
+   font-weight: 700;
+   font-family: 'Manrope', sans-serif;
+   font-size:52px;
+   margin-left:6px;
+}
+
+.para{
+   color: #7A86A1;
+   font-family: 'Manrope', sans-serif;
+   font-size: 20px;
+   margin-top: 6px;
+   margin-left:6px;
+}
+.search-container{
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ 
+  
+ 
+}
+
+.search{
+   
+   height: 45px;
+   outline:none;
+   border:none;
+   cursor:pointer;
+}
+.search-icon{
+   display: flex;
+   align-items: center;
+   
+  
+}
+.icon{
+   cursor:pointer;
+}
+
+@media (max-width: 767.98px) { 
+    .third-container{
+        margin-top: 75px;
+    }
+    .heading{
+ font-size: 30px;;
+    }
+    .para{
+        font-size: 16px;
+    }
+}
+
+/* =============================================================================================================== */
+/* ====================================================Orders Page===================================== */
+
+.tablebutton{
+  background: #FFF4F2 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.inprogress-button{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 2px 13px 54px #695F9714;
+opacity: 1;
+color:#F9B035;
+}
+.three-dot{
+  color:#C0BDCC;
+}
+.caramel-text{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EBEBEB;
+text-align: center;
+letter-spacing: 0px;
+color: #7A86A1;
+opacity: 1;
+font-weight: 700;
+font-size: 14px;
+width: 210px;
+height: 40px;
+}
+.total-price{
+  letter-spacing: 0px;
+  color: #7A86A1;
+  opacity: 1;
+}
+.border-line{
+  border: 1px #e9eaec solid;  
+}
+.dollor-text{
+  letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+font-weight: 600;
+font-size: 15px;
+text-align: center;
+}
+.side-text{
+
+  font-weight: 400;
+color:white;
+background: #6149CD 0% 0% no-repeat padding-box;
+border: 2px solid #FFFFFF;
+border-radius: 19px;
+opacity: 1;
+font-size: 14px;
+width: 45px;
+height: 45px;
+}
+.completed-button{
+  background: #F6EFFF 0% 0% no-repeat padding-box;
+border-radius: 12px;
+opacity: 1;
+letter-spacing: 0px;
+color: #6149CD;
+opacity: 1;
+font-weight: 400;
+}
+
+.order-tables{
+
+  height: 100px;
+  width: 40%;
+}
+.card-set{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 2px 13px 54px #695F9714;
+border-radius: 30px;
+opacity: 1;
+}
+.ongoing-orders{
+letter-spacing: -0.55px;
+color: #000000;
+opacity: 1;
+font-weight: 700;
+font-size: 22px;
+margin-left: 1rem;
+
+}
+
+/* / ---Top Bar in Orders Page--- / */
+.below-one-order{
+  background: #6149CD 0% 0% no-repeat padding-box;
+border-radius: 17px;
+opacity: 1;
+width: 84px;
+height: 40px;
+color:#FFFFFF;
+font-weight: 600;
+font-size: 14px;
+}
+.orders-font{
+  letter-spacing: -1.3px;
+  color: #000000;
+  opacity: 1;
+  font-size:52px ;
+  font-weight: 800;
+}
+.hello-pizzeria{
+  letter-spacing: 0px;
+  color: #7A86A1;
+  opacity: 1;
+  font-size:20px ;
+  font-weight: 400;
+}
+.sidebar-container{
+  position:fixed;
+}
+
+
+

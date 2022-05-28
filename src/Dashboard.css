@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+.card{
+  margin-bottom: 0.5rem;
+  padding: 0 .7rem 1.2rem;
+  border: none;
+  border-radius: 1rem;
+  color:rgba(0,0,0,1);
+  letter-spacing: .05rem;
+}
+.chat-replied{
+  background-color: #fff4f2;
+  color: #000;
+  font-weight: 400;
+  height: 8rem;
+  width: 15rem;
+}
+.chat-Satisfaction{
+  background-color: #f6efff;
+  color: #000;
+  font-weight: 400;
+  background-image: url(./images/satisfaction_bg.svg);
+  background-position: bottom 0px right 0px;
+  background-repeat: no-repeat;
+  height: 8rem;
+  width: 15rem;
+
+}
+
+.chat-replied .card-text{
+  font-size: 5px;
+}
+
+.clip2{
+  margin-left: 7rem;
+  margin-top: -3.5rem;
+}
+
+.chat-replied .icon-more{
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  width: 2rem;
+  height: .2rem;
+}
+.chat-Satisfaction .icon-more{
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  width: 2rem;
+  height: .2rem;
+}
+
+.clip img{
+  margin-left: -10px;
+}
+.satisfaction{
+  background-color: #f6efff;
+  color: #000; 
+}
+.txt h3{
+  font-weight: 700;
+}
+.txt h5{
+  color: #7A86A1;
+  font-weight: 400;
+  font-size: medium;
+}
+
+.Order-in-Progress{
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  box-shadow: 2px 13px 54px #695F9714; 
+  margin-bottom: 2rem; 
+}
+
+.Order-in-Progress .heading{
+  margin: 1.2rem;
+}
+.Order-in-Progress .price{
+    color: #7A86A1;
+}
+
+.table-img{
+  width: 4rem;
+  height: 4rem;
+  margin-top: .8rem;
+  margin-right: .2rem;
+}
+tr {
+  display: block
+}
+td.break {
+  float: left;
+}
+td.Payment-mode{
+  padding-left: 3rem;
+  color: #6149CD;
+}
+.price{
+  width: 50vw;
+  background: #ccc;
+  text-align: center;
+}
+
+.clock-img{
+  width: .938rem;
+  height: .938rem;
+  margin-right: .8rem;
+
+}
+
+.All-orders-btn{
+  border: 1px solid #EBEBEB ;
+  color: #7A86A1;
+  font-size: .875rem;
+  background-color: #ffffff;
+  font-weight: 700;
+}
+.All-orders-btn:hover{
+  background-color: #6149CD;
+  color: #ffffff;
+  border: 1px solid #6149CD;
+}
